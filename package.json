@@ -1,7 +1,7 @@
 {
   "name": "event-callback",
   "description": "Turn a pass/fail event combo into a Node-style callback.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/jamen/event-callback",
   "author": "Jamen Marz (https://github.com/jamen)",
   "repository": "jamen/event-callback",
