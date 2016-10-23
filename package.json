@@ -1,0 +1,40 @@
+{
+  "name": "event-callback",
+  "description": "Turn a pass/fail event combo into a Node-style callback.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jamen/event-callback",
+  "author": "Jamen Marz (https://github.com/jamen)",
+  "repository": "jamen/event-callback",
+  "bugs": {
+    "url": "https://github.com/jamen/event-callback/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "eslint test.js index.js && tape test.js | tap-spec"
+  },
+  "keywords": [
+    "events",
+    "eventemitter",
+    "callback",
+    "node"
+  ],
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  },
+  "dependencies": {
+    "fast-args": "^1.0.0"
+  }
+}
