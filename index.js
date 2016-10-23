@@ -1,3 +1,4 @@
+'use strict'
 eventCallback.persist = eventCallbackPersist
 module.exports = eventCallback
 const args = require('fast-args')
