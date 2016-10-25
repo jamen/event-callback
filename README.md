@@ -12,6 +12,18 @@ eventcb(req, 'response', function (err, resp) {
 })
 ```
 
+This module is my own solution to implementing a callback API over something that uses events.  For example completion callbacks:
+
+```js
+function read (filePath, finish) {
+  var reader = fs.createReadStream('foo.js')
+  eventcb(reader, 'end', finish)
+  return reader
+}
+```
+
+Note: You might be able to use [`once`](https://npmjs.com/once) instead.
+
 ## Installation
 
 ```sh
